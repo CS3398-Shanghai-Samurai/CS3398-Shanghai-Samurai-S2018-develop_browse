@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Search Algorithms</title>
+	</head>
+
+	<body>
+		<hr />
+
+<h3>Linear Search</h3>
+<strong>Problem:</strong> Given an array arr[] of n elements, write a function to search a given element x in arr[].
+
+A simple approach is to do <strong>linear search</strong>, i.e
+<ul>
+	<li>Start from the leftmost element of arr[] and one by one compare x with each element of arr[]</li>
+	<li>If x matches with an element, return the index.</li>
+</ul>
+If x doesn’t match with any of elements, return -1
+
+<em><a href="https://shanghaisamurai.wordpress.com/browse-algorithms/search/linear-search-example-1/">Example 1</a></em>
+
+<em><a href="https://shanghaisamurai.wordpress.com/browse-algorithms/search/linear-search-example-2/">Example 2</a></em>
+
+<em><a href="https://shanghaisamurai.wordpress.com/browse-algorithms/search/">(back to top)</a></em>
+
+<hr />
+
+<h3>Binary Search</h3>
+Binary Search searches a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise, narrow it to the upper half. This process repeats until the value is found or the interval is empty.
+
+<em><a href="https://shanghaisamurai.wordpress.com/browse-algorithms/search/binary-search-example-1/">Example 1</a></em>
+
+<em><a href="https://shanghaisamurai.wordpress.com/browse-algorithms/search/binary-search-example-2/">Example 2</a></em>
+
+<em><a href="https://shanghaisamurai.wordpress.com/browse-algorithms/search/">(back to top)</a></em>
+
+<hr />
+
+<h3>Jump Search</h3>
+Like <a href="http://geeksquiz.com/binary-search/">Binary Search</a>, Jump Search is a searching algorithm for sorted arrays. The basic idea is to check fewer elements (than <a href="https://www.geeksforgeeks.org/analysis-of-algorithms-set-2-asymptotic-analysis/">linear search</a>) by jumping ahead by fixed steps or skipping some elements in place of searching all elements.
+
+For example, suppose we have an array arr[] of size n and block (to be jumped) size m. Then we search at the indexes arr[0], arr[m], arr[2m]…..arr[km] and so on. Once we find the interval (arr[km] < x < arr[(k+1)m]), we perform a linear search operation from the index km to find the element x.
+
+<em><a href="https://shanghaisamurai.wordpress.com/browse-algorithms/search/jump-search-example-1/">Example 1</a></em>
+
+<em><a href="https://shanghaisamurai.wordpress.com/browse-algorithms/search/jump-search-example-2/">Example 2</a></em>
+
+<em><a href="https://shanghaisamurai.wordpress.com/browse-algorithms/search/">(back to top)</a></em>
+
+<hr />
+
+<h3></h3>
+	</body>
+</html>
