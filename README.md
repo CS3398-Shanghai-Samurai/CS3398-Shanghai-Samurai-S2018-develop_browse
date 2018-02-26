@@ -1,6 +1,6 @@
 # CS3398-Shanghai-Samurai-S2018
 
-# Post-Sprint1 STATUS
+Post-Sprint1 STATUS
 #
 # The GUI for the website came together as planned. There is still some tweaking to do, but the prototype of the website is functional and # follows the design. This branch contains some HTML files which derive the pages of the site.
 #
